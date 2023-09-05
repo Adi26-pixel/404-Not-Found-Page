@@ -1,3 +1,130 @@
-body {
-  margin: 20px 24px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: 44px 70px;
+}
+
+nav li {
+  list-style-type: none;
+  color: #333;
+  font-family: Inconsolata;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.92px;
+  text-transform: uppercase;
+}
+
+img {
+  width: 539.224px;
+  height: 447.426px;
+  flex-shrink: 0;
+  margin: 77px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin-top: 100px;
+  margin-right: 77px;
+  column-gap: 10px;
+}
+
+h1 {
+  color: #333;
+  font-family: Space Mono;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.24px;
+  width: 586px;
+}
+
+p {
+  color: #4f4f4f;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.84px;
+  margin-top: 36px;
+  margin-bottom: 64px;
+  margin-right: 77px;
+  width: 381px;
+}
+
+a {
+  background-color: #333;
+  color: #fff;
+  font-family: Space Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.49px;
+  text-transform: uppercase;
+  padding: 24px 43px;
+}
+
+.footer {
+  color: #bdbdbd;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 150px;
+  margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    margin: 20px 24px;
+  }
+  .container {
+    flex-direction: column;
+    margin-top: 40px;
+    max-width: 768px;
+    margin-right: 24px;
+    column-gap: 0;
+  }
+
+  img {
+    width: 286.83px;
+    height: 220.352px;
+    flex-shrink: 0;
+    margin: 20px;
+  }
+
+  h1 {
+    font-size: 48px;
+    letter-spacing: -1.68px;
+    margin-left: 45px;
+    width: 300px;
+  }
+
+  p {
+    font-size: 18px;
+    letter-spacing: -0.63px;
+    width: 280px;
+    margin-left: 45px;
+  }
+
+  a {
+    margin-left: 45px;
+  }
+
+  .footer {
+    text-align: start;
+    margin-left: 45px;
+  }
 }
